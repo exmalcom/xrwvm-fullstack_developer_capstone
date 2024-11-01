@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealerships</title>
+    <style>
+        /* CSS Styles */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #50C2C9;
+        }
+
+        .navbar h1 {
+            color: #000;
+        }
+
+        .navbar nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .background-image {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .background-image:hover {
+            opacity: 0.8;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.5;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Dealerships</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="image-container">
+                <img src="./Cars.jpg" alt="CarsDealership" class="background-image">
+            </div>
+            <div class="contact-info">
+                <p>Contact Customer Service<br>support@bestcars.com</p>
+                <p>Contact our National Advertising team<br>NationalSales@bestcars.com</p>
+                <p>Contact our Public Relations team<br>PR@bestcars.com</p>
+                <p>Contact the bestcars.com offices<br>312-611-1111</p>
+                <p>Become a bestcars.com car dealer<br>Visit growwithbestcars.com</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
