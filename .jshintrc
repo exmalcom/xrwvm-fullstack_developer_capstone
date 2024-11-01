@@ -2,8 +2,7 @@
     "esversion": 8,
     "node": true,
     "browser": true,
-    "asi": true,  // Allow missing semicolons
-    "dot-notation": false,  // Allow bracket notation
+    "asi": true,
     "undef": true,
     "unused": true,
     "globals": {
