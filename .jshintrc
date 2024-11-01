@@ -2,6 +2,10 @@
     "esversion": 8,
     "node": true,
     "browser": true,
+    "asi": true,  // Allow missing semicolons
+    "dot-notation": false,  // Allow bracket notation
+    "undef": true,  // Allow undefined variables (you can set this to false if you want to enforce variable declarations)
+    "unused": true  // Allow unused variables (you can set this to false if you want to enforce variable usage)
     "globals": {
       "require": true,
       "module": true,
