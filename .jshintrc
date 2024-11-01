@@ -4,11 +4,11 @@
     "browser": true,
     "asi": true,  // Allow missing semicolons
     "dot-notation": false,  // Allow bracket notation
-    "undef": true,  // Allow undefined variables (you can set this to false if you want to enforce variable declarations)
-    "unused": true  // Allow unused variables (you can set this to false if you want to enforce variable usage)
+    "undef": true,
+    "unused": true,
     "globals": {
-      "require": true,
-      "module": true,
-      "exports": true
+        "require": true,
+        "module": true,
+        "exports": true
     }
-  }
+}
